@@ -27,14 +27,6 @@ public class BookController {
         this.bookService = bookService;
     }
 
-//    @RequestMapping(value = "books", method = RequestMethod.GET)
-//    public String listBooks(Model model){
-//        model.addAttribute("book", new Book());
-//        model.addAttribute("listBooks", this.bookService.listBooks());
-//
-//        return "aaa";
-//    }
-
     @RequestMapping(value = "/books/add", method = RequestMethod.POST)
     public String addBook(@ModelAttribute("book") Book book){
         if(book.getId() == 0){
