@@ -1,15 +1,4 @@
 # BookManager
 JavaRush internship test task.
 
-
-
-CREATE TABLE `book` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `title` varchar(100) NOT NULL,
-  `description` varchar(255) NOT NULL,
-  `author` varchar(100) NOT NULL,
-  `isbn` varchar(20) NOT NULL,
-  `printYear` int(11) NOT NULL,
-  `readAlready` tinyint(4) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+![db](https://user-images.githubusercontent.com/20207133/31622606-93f6df04-b2a5-11e7-93a4-3771d134997a.png)
